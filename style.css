@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap'); */
+html, body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'cursive'; 
+  margin: 0;padding: 0;
+}
+.heading{
+  font-weight: 800;
+  font-size: 3rem;
+  color: rgb(96, 218, 255);
+}
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(96, 218, 255);
+  border-radius: 9px;
+  cursor: pointer;
+  color: rgb(9, 115, 147);
+  background-color: white;
+  font-size: medium;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid rgb(96, 218, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+
+}
+
+
+.footer {
+  font-family: cursive;
+  padding: 1rem;
+  color: white;
+  background-color: rgb(96, 218, 255);
+margin: 0;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
